@@ -1,16 +1,92 @@
-# React + Vite
+# She Can Foundation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive NGO website built using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+This project is designed to support women empowerment, community awareness, and volunteer participation through a clean and attractive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive Design
+- Modern UI
+- Hero Section with Background Image
+- About Section
+- NGO Impact Section
+- Volunteer / Join Us Section
+- Footer with Contact Details
+- Tailwind CSS Styling
+- Component-Based Structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+
+---
+
+## Website Sections
+
+### Home Section
+A visually attractive hero section with NGO background image, heading, and action buttons.
+
+### About Section
+Provides information about the mission and vision of She Can Foundation.
+
+### Impact Section
+Displays NGO achievements and statistics in a modern card layout.
+
+### Volunteer Section
+Encourages users to join and support the NGO mission.
+
+### Footer Section
+Contains contact details and copyright information.
+
+---
+
+## Project Structure
+
+```bash
+src
+ ┣ assets
+ ┃ ┗ ngo.jpg
+ ┣ components
+ ┃ ┣ Navbar.jsx
+ ┃ ┣ Hero.jsx
+ ┃ ┣ About.jsx
+ ┃ ┣ Impact.jsx
+ ┃ ┣ Volunteer.jsx
+ ┃ ┗ Footer.jsx
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ index.css
+```
+
+---
+
+## User Interface Highlights
+
+- Dark Theme Design
+- Pink Accent Color Theme
+- Smooth Hover Effects
+- Modern Typography
+- Responsive Layout
+- Clean Component Design
+
+---
+
+## Future Improvements
+
+- Add Animations
+- Add Multiple Pages
+- Add Contact Form
+- Add Donation System
+- Add Testimonials Section
+- Add Gallery Section
+- Add Backend Integration
+
+
+
